@@ -9,6 +9,8 @@ This website also makes use of proper colour contrast in accordance to WCAG acce
 
 This website was initially developed for a Human-Computer Interaction course as an assignment with free reign over the website content.
 
+The website is visible at the following link: https://rmspratt.github.io/Pizza-Restaurant/index.html
+
 
 DEVELOPMENT
 This website was developed entirely using HTML, CSS, and the sass module for formatting CSS.
