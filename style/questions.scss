@@ -1,0 +1,22 @@
+$secondaryColor-light: hsl(20,65,75);
+
+.questionsMain {
+    
+    h2 {
+        margin-top: 20px;
+    }
+
+    h4 {
+        margin-bottom: 3rem;
+    }
+
+    .question {
+        color: $secondaryColor-light;
+        font-weight: bold;
+        margin-bottom: 1rem;
+    }
+
+    .answer {
+        margin-bottom: 3rem;
+    }
+}

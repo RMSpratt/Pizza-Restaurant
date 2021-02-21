@@ -1,0 +1,89 @@
+$primaryColor: hsl(208,89,20);
+$primaryColor-dark: hsl(208,89,15);
+$primaryColor-light: hsl(208,49,30);
+
+$secondaryColor: hsl(20,65,55);
+$secondaryColor-light: hsl(20,65,75);
+$tertiaryColor: hsl(50,100,70);
+$textColor: hsl(255,100,100);
+
+.partyMain {
+
+    .left {
+        float: left;
+        margin-right: 5%;
+        width: 50%;
+    }
+
+    .right {
+        background-color: $primaryColor-dark;
+        border-radius: 50px;
+        float: right;
+        margin: 20px 0;
+        padding: 10px;
+        width: 45%;
+    }
+
+    .packages div {
+        background-color: $primaryColor-dark;
+        border-radius: 20px;
+        float: left;
+        padding: 10px;
+        width: 47.5%;
+
+        h3 {
+            text-align: center;
+            padding-bottom: 5px;
+            border-bottom: 2px solid $secondaryColor-light;
+        }
+    }
+
+    .packages .small {
+        margin-right: 2.5%;
+    }
+
+    .packages .large {
+        margin-left: 2.5%;
+    }
+
+    ul {
+        list-style-image: url('../static/star.png');
+        list-style-position: inside;
+    }
+    
+    li {
+        display: list-item;
+        line-height: 2rem;
+    }
+}
+
+//Media query for smaller devices, i.e. tablets
+@media only screen and (max-width: 800px) {
+    
+    .partyMain {
+
+        .left {
+            clear: both;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+
+        .right {
+            margin-bottom: 40px;
+            margin-top: 0px;
+            width: 100%;
+        }
+
+        .packages div { 
+            width: 90%;
+        }
+
+        .packages .small {
+            margin: 20px 5%;
+        }
+
+        .packages .large {
+            margin: 20px 5%;
+        }
+    }
+}

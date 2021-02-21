@@ -1,0 +1,52 @@
+$primaryColor-dark: hsl(208,89,15);
+
+.homeMain {
+
+    .inline {
+        float: left;
+        margin-right: 5%;
+        width: 40%;
+    }
+
+    .left {
+        float: left;
+        margin-right: 5%;
+        width: 60%;
+    }
+
+    .right {
+        background-color: $primaryColor-dark;
+        border-radius: 50px;
+        float: right;
+        margin: 50px 0;
+        padding: 10px;
+        width: 35%;
+    }
+
+    .subsection {
+        float: left;
+        width: 45%;
+        margin-right: 5%;
+    }
+}
+
+//Media query for smaller devices, i.e. tablets
+@media only screen and (max-width: 800px) {
+    
+    .homeMain {
+
+        .inline {
+            clear: both;
+            width: 100%;
+        }
+
+        .left {
+            clear: both;
+            width: 100%;
+        }
+
+        .right {
+            display: none;
+        }
+    }
+}

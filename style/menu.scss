@@ -1,0 +1,21 @@
+$primaryColor: hsl(208,89,20);
+$primaryColor-dark: hsl(208,89,15);
+$primaryColor-light: hsl(208,49,25);
+
+$secondaryColor: hsl(20,65,55);
+$secondaryColor-light: hsl(20,65,75);
+$tertiaryColor: hsl(50,100,70);
+$textColor: hsl(255,100,100);
+
+.menuMain {
+
+    h3 {
+        clear: both;
+    }
+    
+    .menuItem {
+        float: left;
+        margin-right: 2.5%;
+        width: 47.5%;
+    }
+}
