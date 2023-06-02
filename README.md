@@ -4,7 +4,7 @@ This is a static website for a mock pizza restaurant: _Planet Pizza_
 ## Description
 This website is best optimized for viewing on computer screens, but does contain media queries to assist with smaller screen displays. This website also makes use of proper colour contrast in accordance to WCAG accessibility guidelines. 
 
-[Planet Pizza Landing Page]
+![Planet Pizza Landing Page](./Pizza-Restaurant.png?raw=true "Planet Pizza Landing Page")
 
 This website was developed for a Human-Computer Interaction course as an assignment with free reign over the website content.
 
